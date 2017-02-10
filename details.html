@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>失物详情</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" type="text/css" href="css/ui-box.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="header-t ub ub-ac">
+				<a href="#" onClick="javascript :history.back(-1);"><i class="iconfont icon-jiantou-copy ub ub-ac"></i></a>
+				<div class="title ub ub-f1 ub-pc ut-s">失物详情</div>
+				<a href="#" onClick="javascript :history.back(-1);"><i class="iconfont icon-home ub ub-ac ub-pe"></i></a>
+			</div>
+		</div>
+		<div class="details">
+			<div class="details-img">
+				<div id="slideBox" class="slideBox">
+
+					<div class="bd">
+						<ul>
+							<li>
+								<a class="pic" href="#"><img src="img/1.jpg" /></a>
+							</li>
+							<li>
+								<a class="pic" href="#"><img src="img/1.jpg" /></a>
+							</li>
+							<li>
+								<a class="pic" href="#"><img src="img/1.jpg" /></a>
+							</li>
+							<li>
+								<a class="pic" href="#"><img src="img/1.jpg" /></a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="hd">
+						<ul></ul>
+					</div>
+				</div>
+
+			</div>
+			<div class="details-h ub ub-ac">
+				<div class="ub-f1 no">15646</div>
+				<a href=""><i class="iconfont icon-phone"></i>41546464</a>
+			</div>
+			<div class="details-c">
+				<div class="tr ub">
+					<div class="name">失物类别</div>
+					<div class="ub-f1">哈哈哈</div>
+				</div>
+				<div class="tr ub">
+					<div class="name">发生时间</div>
+					<div class="ub-f1">2016-12-14 12:14</div>
+				</div>
+				<div class="tr ub">
+					<div class="name">失物地点</div>
+					<div class="ub-f1">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</div>
+				</div>
+				<div class="tr ub">
+					<div class="name">认领状态</div>
+					<div class="ub-f1">哈哈哈</div>
+				</div>
+				<div class="tr ub">
+					<div class="name">特征描述</div>
+					<div class="ub-f1">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</div>
+				</div>
+			</div>
+		</div>
+		<div class="details-f">
+			温情提示：认领者须携带本人身份证或护照进行登记，核实无误后返还并签字确认。每件失物的公示时间为7天，失物的认领时间为上午9:00-下午21:00。
+		</div>
+	</body>
+	<script type="text/javascript" src="js/TouchSlide.1.1.js"></script>
+	<script>
+		TouchSlide({ 
+					slideCell:"#slideBox",
+					titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+					mainCell:".bd ul", 
+					effect:"leftLoop", 
+					autoPage:true,//自动分页
+					autoPlay:true //自动播放
+				});
+
+	</script>
+
+</html>

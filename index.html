@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>失物招领</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" type="text/css" href="css/ui-box.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="header-t ub ub-ac">
+				<div class="title ub ub-f1 ub-pc">失物招领</div>
+			</div>
+			<ul class="header-m ub" id="menu">
+				<li>
+					<div class="title">失物类型<i class="iconfont icon-down-copy"></i></div>
+					<div class="con" id="type">
+						<div class="con-list">
+							<div>
+								<span>证件</span>
+								<i class="iconfont icon-duigou"></i></div>
+							<div>
+								<span>卡折</span>
+								<i class="iconfont icon-duigou"></i></div>
+							<div>
+								<span>数码产品</span>
+								<i class="iconfont icon-duigou"></i></div>
+							<div>
+								<span>钱包箱包</span>
+								<i class="iconfont icon-duigou"></i></div>
+							<div>
+								<span>衣物鞋帽</span>
+								<i class="iconfont icon-duigou"></i></div>
+							<div>
+								<span>其他</span>
+								<i class="iconfont icon-duigou"></i></div>
+						</div>
+						<div class="con-foot ub">
+							<div class="reset">重置</div>
+							<div data-type="type" class="choose">选择</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="title">失物地点<i class="iconfont icon-down-copy"></i></div>
+					<div class="con" id="address">
+						<div class="con-list">
+							<div>
+								<span>登机口</span>
+								<i class="iconfont icon-duigou"></i></div>
+							<div>
+								<span>飞机上</span>
+								<i class="iconfont icon-duigou"></i></div>
+							<div>
+								<span>出租车道</span>
+								<i class="iconfont icon-duigou"></i></div>
+							<div>
+								<span>其他</span>
+								<i class="iconfont icon-duigou"></i></div>
+						</div>
+						<div class="con-foot ub">
+							<div class="reset">重置</div>
+							<div data-type="address" class="choose">选择</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="title">失物时间<i class="iconfont icon-down-copy"></i></div>
+					<div class="con" id="time">
+						<div class="con-list">
+							<div>
+								<span>一周内</span>
+								<i class="iconfont icon-duigou"></i></div>
+							<div>
+								<span>一月内</span>
+								<i class="iconfont icon-duigou"></i></div>
+							<div>
+								<span>三月内</span>
+								<i class="iconfont icon-duigou"></i></div>
+						</div>
+						<div class="con-foot ub">
+							<div class="reset">重置</div>
+							<div data-type="time" class="choose">选择</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="title">高级搜索<i class="iconfont icon-down-copy"></i></div>
+					<div class="con" id="search">
+						<div class="con-form">
+							<div class="tr ub">
+								<div class="name ub-ac ub">特征</div>
+								<div class="text-div ub-f1"><input type="text" id="trait" class="text" placeholder="请输入特征描述"></div>
+							</div>
+							<div class="tr ub">
+								<div class="name">时间</div>
+								<div class="tag-list ub-f1" id="timeTag">
+									<div class="tag">
+										<span>一周内 </span>
+									</div>
+									<div class="tag">
+										<span>一月内</span>
+									</div>
+									<div class="tag">
+										<span>三月内</span>
+									</div>
+								</div>
+							</div>
+							<div class="tr ub">
+								<div class="name ub ub-ac">认领状态</div>
+								<div class="tag-list ub-f1" id="stateTag">
+									<div class="tag">
+										<span>已认领</span>
+									</div>
+									<div class="tag">
+										<span>未认领</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="con-foot ub">
+							<div class="reseted">重置</div>
+							<div data-type="search" class="choose">选择</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+		<div class="main">
+			<ul class="img-list cl">
+				<li>
+					<a href="details.html">
+						<div class="img">
+							<img class="lazy" data-original="img/1.jpg">
+						</div>
+						<p class="no">1163</p>
+						<p class="address">飞机上</p>
+					</a>
+				</li>
+				<li>
+					<a href="details.html">
+						<div class="img">
+							<img class="lazy" data-original="img/1.jpg">
+						</div>
+						<p class="no">1163</p>
+						<p class="address">飞机上</p>
+					</a>
+				</li>
+				<li>
+					<a href="details.html">
+						<div class="img">
+							<img class="lazy" data-original="img/1.jpg">
+						</div>
+						<p class="no">1163</p>
+						<p class="address">飞机上</p>
+					</a>
+				</li>
+				<li>
+					<a href="details.html">
+						<div class="img">
+							<img class="lazy" data-original="img/1.jpg">
+						</div>
+						<p class="no">1163</p>
+						<p class="address">飞机上</p>
+					</a>
+				</li>
+				<li>
+					<a href="details.html">
+						<div class="img">
+							<img class="lazy" data-original="img/1.jpg">
+						</div>
+						<p class="no">1163</p>
+						<p class="address">飞机上</p>
+					</a>
+				</li>
+				<li>
+					<a href="details.html">
+						<div class="img">
+							<img class="lazy" data-original="img/1.jpg">
+						</div>
+						<p class="no">1163</p>
+						<p class="address">飞机上</p>
+					</a>
+				</li>
+			</ul>
+			<div class="tip">没有更多数据了</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/load.js"></script>
+	<script type="text/javascript" src="js/layer/layer.js"></script>
+	<script>
+		var flag = false;
+		var typeCon = '',
+			type = 0,
+			trait = '',
+			time = '',
+			state = '';
+		var pageCount = 1, //当前页
+			pageSize = 30, //每页显示数据
+			pageToal = 1;  //总页码
+		$("img.lazy").lazyload();
+		$("#menu li .title").click(function() {
+			$("#menu li .title i").addClass("icon-down-copy").removeClass("icon-down-copy1");
+			$("#menu li .title").removeClass("active");
+			$(this).addClass("active");
+			$("#menu li .con").slideUp();
+			$(".share").remove();
+			if($(this).next(".con").is(":hidden")) {
+				$("body").append("<div class='share'></div>");
+				$(this).children("i").addClass("icon-down-copy1").removeClass("icon-down-copy");
+				$(this).next(".con").slideDown();
+				flag = true;
+			} else {
+				flag = false;
+				$(this).next(".con").slideUp();
+			}
+		});
+
+		document.addEventListener('touchmove', function(event) {
+			if(flag) {
+				event.preventDefault();
+			}
+		});
+
+		$(".con-list div").click(function() {
+			$(this).addClass("active").siblings().removeClass("active");
+		});
+
+		$(".header-m li .reset").click(function() {
+			$(this).parent().prev().children().removeClass("active");
+		});
+
+		$(".tag-list .tag").click(function() {
+			$(this).addClass("active").siblings().removeClass("active");
+		});
+
+		$(".reseted").click(function() {
+			$(".text").val("");
+			$(".tag-list .tag").removeClass("active");
+		});
+
+		$(".choose").click(function() {
+			var _this = $(this);
+			var type = _this.data("type");
+			switch(type) {
+				case 'type':
+					var flag = false;
+					var _list = _this.parent().prev().children();
+					_list.each(function() {
+						if($(this).hasClass("active")) {
+							type = 1;
+							typeCon = $(this).children("span").text();
+							flag = true;
+							return;
+						}
+					})
+					if(!flag) {
+						layer.open({
+							content: '请选择失物类型',
+							skin: 'msg',
+							time: 2
+						});
+						return;
+					}
+					pageCount = 1;
+					jsonRequest(type);
+					break;
+				case 'address':
+					var flag = false;
+					var _list = _this.parent().prev().children();
+					_list.each(function() {
+						if($(this).hasClass("active")) {
+							type = 2;
+							typeCon = $(this).children("span").text();
+							flag = true;
+							return;
+						}
+					})
+					if(!flag) {
+						layer.open({
+							content: '请选择失物地点',
+							skin: 'msg',
+							time: 2
+						});
+						return;
+					}
+					jsonRequest(type);
+					break;
+				case 'time':
+					var flag = false;
+					var _list = _this.parent().prev().children();
+					_list.each(function() {
+						if($(this).hasClass("active")) {
+							type = 3;
+							typeCon = $(this).children("span").text();
+							flag = true;
+							return;
+						}
+					})
+					if(!flag) {
+						layer.open({
+							content: '请选择失物时间',
+							skin: 'msg',
+							time: 2
+						});
+						return;
+					}
+					pageCount = 1;
+					jsonRequest(type);
+					break;
+				case 'search':
+					var timeFalg = false;
+					$("#timeTag").children().each(function() {
+						if($(this).hasClass("active")) {
+							time = $(this).children("span").text();
+							timeFalg = true;
+							return;
+						}
+					});
+					if(!timeFalg) {
+						layer.open({
+							content: '请选择时间',
+							skin: 'msg',
+							time: 2
+						});
+						return;
+					}
+					var stateFalg = false;
+					$("#stateTag").children().each(function() {
+						if($(this).hasClass("active")) {
+							state = $(this).children("span").text();
+							stateFalg = true;
+							return;
+						}
+					});
+					if(!stateFalg) {
+						layer.open({
+							content: '请选择状态',
+							skin: 'msg',
+							time: 2
+						});
+						return;
+					}
+					type = 4;
+					typeCon = '';
+					trait = $("#trait").val();
+					pageCount = 1;
+					jsonRequest(type);
+					break;
+			}
+		})
+
+		function closeShare() {
+			flag = false;
+			$("#menu li .con").slideUp();
+			$("#menu li").each(function() {
+				var _this = $(this);
+				var _active = _this.children(".title.active");
+				_active.children("i").addClass("icon-down-copy").removeClass("icon-down-copy1");
+			});
+			$(".share").remove();
+		}
+
+		$(document).on("click", ".share", function() {
+			closeShare()
+		});
+
+		//页面一进来加载层
+		layer.open({
+			type: 2
+		});
+
+		var data = {};
+
+		function jsonRequest(type) {
+			layer.closeAll();
+			type = type;
+			if(type != 4) {
+				trait = '', time = '', state = '';
+			}
+			data = {
+				pageCount: pageCount, //当前页
+				pageSize: pageSize, //每页显示多少条
+				type: type, //0是全部  1是失物类型 2是失物地点 3是失物时间 4是高级搜索
+				typeCon: typeCon, //失物类型、失物地点和失物时间选中的内容
+				trait: trait, //高级搜索的特征
+				time: time, //高级搜索的时间
+				state: state //高级搜索的认领状态
+			};
+			console.log(data);
+			$.ajax({
+				type: "post",
+				url: "",
+				async: true,
+				dataType: 'json',
+				data: data,
+				success: function(data) {
+
+				},
+				error: function(err) {
+
+				}
+			});
+		}
+		jsonRequest(type);
+
+		$(window).scroll(function() {
+			var scrollTop = $(this).scrollTop();
+			var scrollHeight = $(document).height();
+			var windowHeight = $(this).height();
+			if(scrollTop + windowHeight == scrollHeight) {
+				pageCount++;
+				jsonRequest(type);
+			}
+		});
+	</script>
+
+</html>
